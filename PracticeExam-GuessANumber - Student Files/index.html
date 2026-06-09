@@ -1,15 +1,24 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width" />
-    <!---->
-
-    <title>CMP621A Practice Exam - Guess My Number Game</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
-    <!-- Put your code here -->
+    <h1> Guess a Number Game</h1>
+    <p> I have chosen a number between 1 and 5. Click below to guess</p>
+    <button class = "pickNum" name = "1" type = "button" onclick="guess(this.name)">1</button>
+    <button class = "pickNum" name = "2" type = "button" onclick="guess(this.name)">2</button>
+    <button class = "pickNum" name = "3" type = "button" onclick="guess(this.name)">3</button>
+    <button class = "pickNum" name = "4" type = "button" onclick="guess(this.name)">4</button>
+    <button class = "pickNum" name = "5" type = "button" onclick="guess(this.name)">5</button>
+
+    <p id = "result"> Result of guess goes here </p>
+
+    <p> RESET button goes here </p>
+
     <script src="script.js"></script>
   </body>
 </html>
